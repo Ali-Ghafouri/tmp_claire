@@ -1,4 +1,4 @@
-BUILD_PETSC   = 3.11.4
+BUILD_PETSC   = 3.12.4
 BUILD_NIFTI   = yes
 BUILD_PNETCDF = no
 BUILD_ACCFFT  = no
@@ -33,7 +33,7 @@ PETSC_OPTIONS += --download-f2cblaslapack
 PETSC_OPTIONS += --with-fortran-bindings=0
 PETSC_OPTIONS += --with-valgrind=0
 PETSC_OPTIONS += --with-c2html=0
-PETSC_OPTIONS += --with-64-bit-indices
+#PETSC_OPTIONS += --with-64-bit-indices
 PETSC_OPTIONS += --with-x=0
 PETSC_OPTIONS += --with-fc=0
 PETSC_OPTIONS += --with-ssl=0
